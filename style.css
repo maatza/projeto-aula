@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#sobre {
+    grid-column-start: 7;
+    grid-row-start: 1;
+}
+
+#whisky {
+    grid-column-start: 8;
+    grid-row-start: 1;
+}
+
+#vinhos {
+    grid-column-start: 9;
+    grid-row-start: 1;
+}
+
+#gin {
+    grid-column-start: 10;
+    grid-row-start: 1;
+}
+#participantes {
+    grid-column-start: 12;
+    grid-row-start: 1;
+}
+
+section {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+
